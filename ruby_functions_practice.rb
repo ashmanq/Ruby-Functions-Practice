@@ -34,20 +34,56 @@ def number_to_full_month_name(month_num)
   case month_num
   when 1
     p "January"
+  when 2
+    p "February"
   when 3
     p "March"
+  when 4
+    p "April"
+  when 5
+    p "May"
+  when 6
+    p "June"
+  when 7
+    p "July"
+  when 8
+    p "August"
   when 9
     p "September"
+  when 10
+    p "October"
+  when 11
+    p "November"
+  when 12
+    p "December"
   end
 end
 
 def number_to_short_month_name(month_num)
   case month_num
-  when 1
-    p "Jan"
-  when 4
-    p "Apr"
-  when 10
-    p "Oct"
+    when 1
+      p "Jan"
+    when 2
+      p "Feb"
+    when 3
+      p "Mar"
+    when 4
+      p "Apr"
+    when 5
+      p "May"
+    when 6
+      p "Jun"
+    when 7
+      p "Jul"
+    when 8
+      p "Aug"
+    when 9
+      p "Sep"
+    when 10
+      p "Oct"
+    when 11
+      p "Nov"
+    when 12
+      p "Dec"
+    end
   end
-end
