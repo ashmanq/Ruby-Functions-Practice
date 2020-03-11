@@ -87,5 +87,17 @@ def number_to_short_month_name(month_num)
       p "Nov"
     when 12
       p "Dec"
-    end
   end
+end
+
+def volume_of_cube(length_of_side)
+  return (length_of_side * length_of_side * length_of_side)
+end
+
+def volume_of_sphere(radius)
+  return (4/3r.to_f * Math::PI * radius**3).round(2)
+end
+
+def fahrenheit_to_celsius(temp_f)
+  return (temp_f - 32) * 5/9r.to_f
+end
